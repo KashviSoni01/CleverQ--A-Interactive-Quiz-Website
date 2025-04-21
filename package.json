@@ -1,0 +1,12 @@
+{
+  "name": "cleverq-quiz-website",
+  "version": "1.0.0",
+  "description": "CleverQ - An Interactive Quiz Website",
+  "scripts": {
+    "start": "npx serve",
+    "build": "echo 'No build required for static site'"
+  },
+  "dependencies": {
+    "serve": "^14.2.1"
+  }
+} 

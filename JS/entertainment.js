@@ -7,7 +7,7 @@ const questions = [
         hint: {
             type: "image_and_text",  // Hint type with both image and text
             src: "../png/brainy.png",  // Path to the image
-            text: "He’s a superstar with a stellar year. Known for his action-packed roles and intense performances."
+            text: "He's a superstar with a stellar year. Known for his action-packed roles and intense performances."
         }
     },
     {
@@ -29,7 +29,7 @@ const questions = [
         hint: {
             type: "image_and_text",  // Hint type with both image and text
             src: "../png/brainy.png",  // Path to the image
-            text: "Known for his energetic roles and expressive performances, he’s one of the most loved actors in the industry."
+            text: "Known for his energetic roles and expressive performances, he's one of the most loved actors in the industry."
         }
     },
     {
@@ -39,7 +39,7 @@ const questions = [
         media: { type: "image", src: "https://s3images.zee5.com/wp-content/uploads/sites/7/2021/04/aefe.png" },
         hint: {
             type: "image_and_text",  // Hint type with both image and text
-            src: "brainy.png",  // Path to the image
+            src: "../png/brainy.png",  // Path to the image
             text: "This movie's train journey is as iconic as the chemistry between the lead characters. 🚂💘"
         }
     },
@@ -77,7 +77,7 @@ const questions = [
         }
     },
     {
-        question: "Director of “All We Imagine as Light” won the Grand Prix at Cannes Film Festival 2024. Who is the director of the film?",
+        question: "Director of 'All We Imagine as Light' won the Grand Prix at Cannes Film Festival 2024. Who is the director of the film?",
         options: ["Sanjay Leela Bhansali", "Payal Kapadia", "Mani Ratnam", "Anurag Basu"],
         answer: 1,
         media: { type: "text" },
@@ -111,15 +111,15 @@ const questions = [
     },
 ];
 const messages = [
-    "You’re not just a quiz master, you're a *quiz superhero*! 🦸‍♂️ Keep going, Brainy is watching you crush it! 💥",
+    "You're not just a quiz master, you're a *quiz superhero*! 🦸‍♂️ Keep going, Brainy is watching you crush it! 💥",
     "Woop woop! 🚨 You're on a roll! Keep answering like it's your second job! 💼✨",
-    "You might just be the Einstein of quizzes. 🤓 Just don’t invent a time machine yet! ⏳",
+    "You might just be the Einstein of quizzes. 🤓 Just don't invent a time machine yet! ⏳",
     "Is it just me, or do you have a superpower? Is it *quiz answering*? 🦸‍♀️ Keep it up!",
-    "I’d give you a 10/10 for effort, but you're already scoring more than that! ⭐️⭐️⭐️⭐️⭐️",
+    "I'd give you a 10/10 for effort, but you're already scoring more than that! ⭐️⭐️⭐️⭐️⭐️",
     "Your brain is doing jumping jacks right now... and winning! 💪 Keep it up!",
-    "Oh wow, look at you go! If quizzing was an Olympic sport, you’d be wearing gold. 🥇",
-    "Brainy says: *You’re a genius in the making*! Just don’t let the fame go to your head. 😎",
-    "Another correct answer? You’re like a *quiz wizard*, casting spells of knowledge! 🔮✨",
+    "Oh wow, look at you go! If quizzing was an Olympic sport, you'd be wearing gold. 🥇",
+    "Brainy says: *You're a genius in the making*! Just don't let the fame go to your head. 😎",
+    "Another correct answer? You're like a *quiz wizard*, casting spells of knowledge! 🔮✨",
     "If there was a *coolness meter*, you'd be off the charts right now! 🕶️ Keep it chill, keep it smart!"
 ];
 

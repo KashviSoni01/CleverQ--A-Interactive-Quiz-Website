@@ -170,7 +170,25 @@
             border-color: #636dc8; 
             box-shadow: 0 4px 20px rgba(87, 4, 138, 0.3);
          }
-
+         
+         /* Image animation replacing marquee */
+         .sliding-image-container {
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+         }
+         
+         .sliding-image {
+            animation: slide 15s linear infinite;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+         }
+         
+         @keyframes slide {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+         }
 
 </style>
 </head>
@@ -179,9 +197,9 @@
         <nav>
             <ul>
                 
-                <li><a href="http://127.0.0.1:5500/Html/signin.html">Sign in</a></li>
+                <li><a href="signin.html">Sign in</a></li>
                 <li><a href="#section1">About Us</a></li>
-                <li><a href=http://127.0.0.1:5500/Html/brainy.html>Meet your Quiz Friend</a></li>
+                <li><a href="brainy.html">Meet your Quiz Friend</a></li>
             </ul>
         </nav>
     </header>
@@ -202,7 +220,7 @@
         Host Your Own Game: Each question is a chance to "win" knowledge.<br><br>
         Catch Escaping Facts: Helps you remember important information.<br><br>
         Brain Workout: Engaging with tricky questions strengthens mental agility.<br><br>
-        Excitement of Knowledge: Shouting “I know this one!” feels rewarding.<br><br>
+        Excitement of Knowledge: Shouting "I know this one!" feels rewarding.<br><br>
         Encourages Active Learning: Promotes interaction and participation in studying.</p></center></div>
         <center><h1 style="margin-top: 120px; font-size: 50px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Frequently asked questions</h1></center>
     <details class="collapsible">
@@ -236,16 +254,24 @@
         <div class="abc">
             <center><h1 id="section1" style=" margin-top: 1px;font-size: 50px; color: aliceblue; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">CleverQ</h1>
             <div class="pic1">
-                <marquee><img src="../jpg/science.jpg"  alt="Science"></marquee>
+                <div class="sliding-image-container">
+                    <img class="sliding-image" src="../jpg/science.jpg" alt="Science">
+                </div>
             </div>
             <div class="pic2">
-                <marquee><img src="../jpg/art.jpg" alt="art"></marquee>
+                <div class="sliding-image-container">
+                    <img class="sliding-image" src="../jpg/art.jpg" alt="art">
+                </div>
             </div>
             <div class="pic3">
-                <marquee><img src="../jpg/HISTORY.jpg" alt="gk"></marquee>
+                <div class="sliding-image-container">
+                    <img class="sliding-image" src="../jpg/HISTORY.jpg" alt="gk">
+                </div>
             </div>
             <div class="pic4">
-                <marquee><img src="../jpg/maths.jpg" alt="My Image"></marquee>
+                <div class="sliding-image-container">
+                    <img class="sliding-image" src="../jpg/maths.jpg" alt="My Image">
+                </div>
             </div>
         <p style=" margin-top: 400px; font-size: 30px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: rgb(7, 14, 92);">CleverQ is your go-to quiz destination for all ages! Dive into a world of fun quizzes on everything from history to pop culture. Challenge yourself, compete with friends, or just enjoy a solo game. With fresh content and a lively vibe, CleverQ turns learning into an exciting adventure!</p>
 </body>
